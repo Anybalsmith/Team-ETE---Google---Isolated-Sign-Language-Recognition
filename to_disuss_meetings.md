@@ -9,3 +9,8 @@ TODO
 - use sequential architectures (start with a simple model)
 - look for ideas on Kaggle 
 - try to plot frames (using scatter plots)
+
+**researchs until next meetings**:
+- CoAtNet: combination of CNN and Transformer
+- https://www.youtube.com/watch?v=VoRQiKQcdcI
+- 
