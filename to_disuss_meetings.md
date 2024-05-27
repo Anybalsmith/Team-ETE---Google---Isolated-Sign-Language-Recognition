@@ -14,3 +14,13 @@ TODO
 - CoAtNet: combination of CNN and Transformer
 - https://www.youtube.com/watch?v=VoRQiKQcdcI
 - 
+
+**28/05**
+DONE
+- preprocessed data (remove NaN, normalization, filter landmarks)
+- removed z coordinates
+- research on architectures (among top participants and on the internet)
+
+QUESTIONS
+- data augmentation ? (rotations, zoom)
+- is normalization useful ?
