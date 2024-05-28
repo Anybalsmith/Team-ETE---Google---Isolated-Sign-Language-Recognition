@@ -16,6 +16,7 @@ TODO
 - 
 
 **28/05**
+
 DONE
 - preprocessed data (remove NaN, normalization, filter landmarks)
 - removed z coordinates
@@ -24,3 +25,8 @@ DONE
 QUESTIONS
 - data augmentation ? (rotations, zoom)
 - is normalization useful ?
+
+TODO
+- check points range
+- create batch, by padding to max length sequence, but ignore padded frames in loss calculation = mask
+- rotation may not be useful, or only on a small range
