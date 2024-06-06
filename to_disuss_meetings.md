@@ -31,6 +31,17 @@ TODO
 - create batch, by padding to max length sequence, but ignore padded frames in loss calculation = mask
 - rotation may not be useful, or only on a small range
 
-31/05
+**31/05**
   Combinations of parts - for example we took a hand from one sample and lips from another sample with the same label. This augmentation gave a significant increase in score (idea proposed in 3rd place solution) 
   Besides doing spatial augmentation such as adding noise, we can think about doing temporal augmentation (cf 2nd place solution)
+
+DONE
+- dataset with only (x,y) coordinates of most relevant landmarks (92 points) and normalized frames 
+- dataloader using padding
+- transformer using mask to ignore padded frames
+
+**07/06** 
+
+QUESTIONS
+- transformer adapted ? (first epochs very bad accuracy)
+- way to fine tune ? instead of training an entire model
