@@ -52,5 +52,6 @@ QUESTIONS
 Start without augmentation
 Then augmente a little bit, no general rule
 
-Vision transformer, point net, combination between time sequence and encode our point cloud. 
+Vision transformer, point net, combination between time sequence and encode our point cloud. Softmax
+
 
