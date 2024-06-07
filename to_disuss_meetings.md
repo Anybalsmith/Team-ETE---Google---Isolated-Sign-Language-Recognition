@@ -27,6 +27,8 @@ QUESTIONS
 - is normalization useful ?
 
 TODO
+Use attention mask
+
 - check points range
 - create batch, by padding to max length sequence, but ignore padded frames in loss calculation = mask
 - rotation may not be useful, or only on a small range
@@ -47,3 +49,7 @@ QUESTIONS
 - way to fine tune ? instead of training an entire model
 - proportion of data augmentation
 
+Start without augmentation
+Then augmente a little bit, no general rule
+
+Vision transformer
