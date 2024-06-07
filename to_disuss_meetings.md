@@ -45,3 +45,5 @@ DONE
 QUESTIONS
 - transformer adapted ? (first epochs very bad accuracy)
 - way to fine tune ? instead of training an entire model
+- proportion of data augmentation
+
