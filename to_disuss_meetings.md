@@ -64,6 +64,12 @@ QUESTION
 - top 5 maybe too large ?
 - way to train faster ? (currently it takes around 1 hour per epochs)
 
+smaller model same data
+model with smaller data
+smaller batch size current 32-> 8 or 16
+retenter model avec top 1 puisque le model apprend
 
+report July 12th
+presentation 28th June
 
 
