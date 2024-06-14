@@ -51,8 +51,19 @@ QUESTIONS
 
 Start without augmentation
 Then augmente a little bit, no general rule
-
 Vision transformer, point net, combination between time sequence and encode our point cloud. Activation softmax
+
+**14/06**
+
+DONE
+- implement different model (CNN1D, tranformer, pointnet+transformer)
+- trained transformer, validation accuracy increase a lot using top 5 predictions for correct prediction
+- trained only on 4 epochs and got 0.96 as validation accuracy
+
+QUESTION
+- top 5 maybe too large ?
+- way to train faster ? (currently it takes around 1 hour per epochs)
+
 
 
 
