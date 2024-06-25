@@ -1187,12 +1187,6 @@ class TransformerModel(nn.Module):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
-# %% [markdown]
-# 15 epochs : 6h30
-
-# %%
-MODEL1_PATH = "/kaggle/input/pointnet_transformer_model1_agmented_dataset_15/pytorch/pointnet_agmented_15/1/pointnet_transformer_model1_agmented_dataset_15.pth"
-
 # %%
 input_dim = 2  # (x, y)
 num_heads = 4
@@ -1208,11 +1202,10 @@ model1 = TransformerModel(input_dim=input_dim,
                          output_dim=output_dim,
                          n_landmarks=n_landmarks)
 
-model1.load_state_dict(torch.load(MODEL1_PATH))
+model1 = model1.to(device)
 print(model1)
 
 # %%
-model1.to(device)
 o1 = model1(sqc)
 
 # %%
@@ -1220,7 +1213,7 @@ loss_function = nn.CrossEntropyLoss()
 optim1 = optim.SGD(model1.parameters(), lr=0.001, momentum=0.9)
 
 # %%
-num_epochs = 25
+num_epochs = 15
 
 dataloader = train_loader
 
